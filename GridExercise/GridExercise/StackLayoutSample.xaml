@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#127ac7"
+             x:Class="GridExercise.StackLayoutSample">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Fill">
+            <Label Text="Welcome to Xamarin!" TextColor="Azure" FontSize="30" FontAttributes="Bold" HorizontalOptions="Center" />
+            <Label Text="Cross-Platform apps made easy" TextColor="Azure" FontSize="18" HorizontalOptions="Center" />
+
+            <Button Text="Login" TextColor="Azure" BackgroundColor="#1dabf0" Clicked="Button_OnClicked"/>
+            <Button Text="Register" TextColor="Azure" BackgroundColor="#1dabf0" Clicked="Button_OnClickedRegister"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

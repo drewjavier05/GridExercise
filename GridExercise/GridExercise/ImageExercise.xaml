@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="Black"
+             x:Class="GridExercise.ImageExercise">
+    <ContentPage.Content>
+
+       <StackLayout>
+           <StackLayout Orientation="Horizontal" >
+               <!--<Image Source="back.png" HorizontalOptions="StartAndExpand"/>-->
+               <Button HorizontalOptions="StartAndExpand" Image="back.png" Clicked="Button_OnClicked"/>
+                <ActivityIndicator IsRunning="True" HorizontalOptions="CenterAndExpand"/>
+                <!--<Image Source="forward.png" HorizontalOptions="EndAndExpand"/>-->
+                <Button HorizontalOptions="EndAndExpand" Image="forward.png" Clicked="Button_OnClickedForward"/>
+           </StackLayout>
+
+           <StackLayout HorizontalOptions="Fill">
+
+               <Image x:Name="Image"/>
+
+           </StackLayout>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
